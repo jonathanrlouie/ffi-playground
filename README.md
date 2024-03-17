@@ -18,13 +18,13 @@ A shell script is provided for running the Docker container. This script also wi
 # Building the sample app
 A script is provided for building the sample app. This script will build the Rust library, generate C bindings for it, and then build the C sample app.
 
-From the `playground/cffi` directory, run:
+From the `playground/c_call_rust` directory, run:
 ```
 ./build.sh
 ```
 
 # Running the app
-From the `playground/cffi` directory, run:
+From the `playground/c_call_rust` directory, run:
 ```
 ./run.sh
 ```
