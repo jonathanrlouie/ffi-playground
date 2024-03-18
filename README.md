@@ -43,5 +43,7 @@ The sample app can be built by simply running `cargo build`. The build uses a cu
 ## Running the app
 The sample app can be built by simply running `cargo run`.
 
+Note that when running this sample app with Valgrind, using `cargo run` may result in strange errors. If you want to run this app through Valgrind, use the raw executable in the `target/debug` folder instead.
+
 # Exiting the container
 Once you are finished using the environment, you can simply exit the container by using the `exit` command.
