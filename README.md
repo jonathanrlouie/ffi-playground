@@ -47,3 +47,8 @@ Note that when running this sample app with Valgrind, using `cargo run` may resu
 
 # Exiting the container
 Once you are finished using the environment, you can simply exit the container by using the `exit` command.
+
+# For Nix users
+If you have flakes enabled, you can use `nix develop` to start a devShell environment with Rust, rust-bindgen, cbindgen, and Valgrind installed.
+
+Otherwise, you can use `nix shell` instead to start the devShell environment.
