@@ -2,8 +2,8 @@
 
 export LD_LIBRARY_PATH=./target/debug
 if [ "$1" == "v" ]; then
-    valgrind ./main
+    ./build.sh && valgrind ./main
 else
-    ./main
+    ./build.sh && ./main
 fi
 
